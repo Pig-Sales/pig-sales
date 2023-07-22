@@ -1,0 +1,50 @@
+{
+	"pages": [{
+		"path": "pages/market/market",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/indent/indent",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "寻甸生猪销售平台",
+		"navigationBarBackgroundColor": "#c00000",
+		"backgroundColor": "#c00000"
+	},
+	"tabBar": {
+		"selectedColor": "#c00000",
+		"list": [
+			{
+				"pagePath": "pages/market/market",
+				"text": "市场",
+				"iconPath": "static/icon/shichang.png",
+				"selectedIconPath": "static/icon/shichang-active.png"
+			},
+			{
+				"pagePath": "pages/indent/indent",
+				"text": "订单",
+				"iconPath": "static/icon/dingdan.png",
+				"selectedIconPath": "static/icon/dingdan-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon/wode.png",
+				"selectedIconPath":"static/icon/wode-active.png"
+			}
+		]
+	}
+}
